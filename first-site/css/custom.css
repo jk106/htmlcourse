@@ -91,8 +91,44 @@ ul.nav
 	background-color: #f5f5f5;
 }
 
+body.modal-open 
+{ 
+	overflow:inherit; 
+	padding-right:inherit !important; 
+}
+
+.modal-content iframe
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.modal-content .close
+{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	font-size: 28px;
+	opacity: 1;
+	background-color: white;
+	border-radius: 24px;
+}
+
+.modal-dialog
+{
+	position: absolute;
+	width: auto;
+	left: 50%;
+	margin-left: -300px;
+	top: 50%;
+	margin-top: -173px;
+}
+
 footer
 {
+	position:relative;
 	background-color: #e74c3d;
 	padding-top:150px;
 	padding-bottom: 30px;
@@ -100,7 +136,7 @@ footer
 
 #back-to-top
 {
-	position: fixed;
+	position: absolute;
 	bottom: 20px;
 	right: 20px
 }
